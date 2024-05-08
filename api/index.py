@@ -12,7 +12,7 @@ CORS(app)
 
 model = Perceptron()
 
-with open("data.csv") as f:
+with open("api/data.csv") as f:
     reader = csv.reader(f)
     next(reader)
 
